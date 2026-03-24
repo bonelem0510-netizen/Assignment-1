@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:angle="180"
+    android:background="#FFFFFFFF"
+    android:startColor="#FF000000"
+    android:endColor="#FF3700B3"
+    >
+
+    <!--title-->
+
+    <!--Input-->
+
+    <!--Check_Button-->
+
+    <TextView
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:letterSpacing="0.2"
+        android:shadowColor="#FF000000"
+        android:shadowDy="7"
+        android:shadowRadius="4"
+        android:text="Social Buddy"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFFF00"
+        android:textSize="35sp" />
+
+    <EditText
+        android:id="@+id/edit_text_id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="#FFFF00"
+        android:fontFamily="sans-serif-medium"
+        android:hint="Enter Time Period of Day"
+        android:letterSpacing="0.05"
+        android:padding="2dp"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#FFFF00"
+        android:textColorHint="#FF000000"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#FFFF00"
+        android:text="What's up today?"
+        android:textColor="#FF000000" />
+051014
+
+</LinearLayout>
