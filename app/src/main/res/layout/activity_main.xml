@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:angle="180"
-    android:background="#FFFFFFFF"
-    android:startColor="#FF000000"
-    android:endColor="#FF3700B3"
-    >
+    android:background="@drawable/background"
+    android:orientation="vertical">
 
     <!--title-->
 
@@ -15,7 +12,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@android:dimen/app_icon_size"
-        android:background="#FF000000"
         android:letterSpacing="0.2"
         android:shadowColor="#FF000000"
         android:shadowDy="7"
@@ -24,30 +20,28 @@
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#FFFF00"
-        android:textSize="35sp"
-        />
+        android:textSize="35sp" />
 
     <!--Input-->
 
     <!--Check_Button-->
 
     <EditText
-        android:id="@+id/edit_text_id"
+        android:id="@+id/editTime"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginBottom="20dp"
         android:background="#FFFF00"
         android:fontFamily="sans-serif-medium"
         android:hint="Enter Time Period of Day"
+        android:inputType="textCapCharacters"
         android:letterSpacing="0.05"
         android:padding="2dp"
-        android:textSize="14sp"
-        android:textStyle="bold"
-        android:textColor="#FFFF00"
-        android:textColorHint="#FF000000"
         android:textAlignment="center"
-        android:inputType="textCapCharacters"
-        />
+        android:textColor="#FF000000"
+        android:textColorHint="#FF000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btnCheck"
@@ -55,37 +49,37 @@
         android:layout_height="50dp"
         android:layout_marginTop="12dp"
         android:backgroundTint="#FFFF00"
-        android:text="What's up today?"
+        android:text="Check Prompt"
         android:textColor="#FF000000"
-        android:textStyle="bold"
-        />
-    
-    051014
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <!--051014-->
 
     <!--Reset_Button-->
-    
+
     <Button
         android:id="@+id/btnReset"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@android:color/darker_gray"
         android:text="Clear"
         android:textColor="#FFFF00"
-        android:backgroundTint="#FF000000"
-        android:layout_marginBottom="24dp"
-        android:textStyle="bold"
-        />
+        android:textSize="20dp"
+        android:textStyle="bold" />
     <!--Result-->
     <TextView
         android:id="@+id/txtResult"
         android:layout_width="match_parent"
         android:layout_height="49dp"
-        android:background="#FF000000"
         android:text="Result will appear here"
+        android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#FFFF00"
+        android:startColor="@color/black"
+        android:endColor="@color/white"
         android:textSize="20sp"
-        android:textStyle="bold"
-        android:textAlignment="center"
-        />
+        android:textStyle="bold" />
 
 </LinearLayout>
