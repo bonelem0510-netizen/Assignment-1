@@ -10,3 +10,5 @@ Additionally, they can add the prefix of "Good" to the three times of day.
 By entering these nine inputs, they will receive prompts on activities to connect socially with others. 
 The "Good" prefixes are used when the user is feeling happy, hopeful, inspired, or needs a challenge that pushes them out of their shell.
 If the user enters an input outside of the nine inputs, spells the words wrong, or doesn't add capitals for each word input, the user will receive a message stating "ANSWER NOT ACCEPTED." They are then allowed to try again.
+
+# Screenshots in Readme
