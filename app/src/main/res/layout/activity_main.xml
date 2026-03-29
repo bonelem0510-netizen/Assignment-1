@@ -34,14 +34,14 @@
         android:background="#FFFF00"
         android:fontFamily="sans-serif-medium"
         android:hint="Enter Time Period of Day"
-        android:inputType="textCapCharacters"
         android:letterSpacing="0.05"
         android:padding="2dp"
         android:textAlignment="center"
         android:textColor="#FF000000"
         android:textColorHint="#FF000000"
         android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        />
 
     <Button
         android:id="@+id/btnCheck"
@@ -68,14 +68,15 @@
         android:textColor="#FFFF00"
         android:textSize="20dp"
         android:textStyle="bold" />
+
     <!--Result-->
+
     <TextView
         android:id="@+id/txtResult"
         android:layout_width="match_parent"
         android:layout_height="49dp"
         android:text="Result will appear here"
         android:textAlignment="center"
-        android:textAllCaps="true"
         android:textColor="#FFFF00"
         android:startColor="@color/black"
         android:endColor="@color/white"
