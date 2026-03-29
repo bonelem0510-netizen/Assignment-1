@@ -12,3 +12,14 @@ The "Good" prefixes are used when the user is feeling happy, hopeful, inspired, 
 If the user enters an input outside of the nine inputs, spells the words wrong, or doesn't add capitals for each word input, the user will receive a message stating "ANSWER NOT ACCEPTED." They are then allowed to try again.
 
 # Screenshots in Readme
+
+![](Screenshots%20Folder/Screenshots%201)
+Screenshot of the LinearLayout, TextView, and UI preview code
+![](Screenshots%20Folder/Screenshots%202)
+Screenshot of the EditText code
+![](Screenshots%20Folder/Screenshots%203)
+Screenshot of Button code
+![](Screenshots%20Folder/Screenshots%204)
+Screenshot of the Reset Button code
+![](Screenshots%20Folder/Screenshots%205)
+Screenshot of the Rest Button TextView code
