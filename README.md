@@ -23,6 +23,11 @@ https://www.youtube.com/watch?v=bh_XtYv4Zog
 
 Forgot to reference my code in the Word document: 
 
-MainActivity and activity_main code: (Fakazi,2026)
+MainActivity and activity_main code: (Ngema,2026)
 
 Referencing List
+
+Code: Ngema, F. (2026) Character-Mark-Evaluation. [Online code] Available at: <https://github.com/bonelem0510-netizen/Character-Mark-Evaluation.git> [Accessed 20 March 2026]
+
+Image:
+Kelly, K.2026. Learning challenges that can impact typing. [Online Image] Available at:<https://www.understood.org/en/articles/learning-challenges-that-can-impact-typing> [Accessed 23 March 2026]
