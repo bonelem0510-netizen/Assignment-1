@@ -18,3 +18,11 @@ They are in the Master Branch, Readme File
 # Youtube Link
 
 https://www.youtube.com/watch?v=bh_XtYv4Zog
+
+# Referencing 
+
+Forgot to reference my code in the Word document: 
+
+MainActivity and activity_main code: (Fakazi,2026)
+
+Referencing List
